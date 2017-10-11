@@ -1,5 +1,5 @@
 {
-    "name": "jenssegers/rollbar",
+    "name": "rrdial/rollbar",
     "description": "Rollbar error monitoring integration for Laravel projects",
     "keywords": ["laravel", "rollbar", "monitoring", "error", "logging"],
     "homepage": "https://github.com/jenssegers/laravel-rollbar",
@@ -8,12 +8,16 @@
         {
             "name": "Jens Segers",
             "homepage": "https://jenssegers.com"
+        },
+        {
+            "name": "Ryan Dial",
+            "homepage": "https://ryandial.com"
         }
     ],
     "require": {
         "php": ">=5.4",
         "illuminate/support": "^4.0|^5.0",
-        "rollbar/rollbar": "~0.15"
+        "rollbar/rollbar": "^1.3.2"
     },
     "require-dev": {
         "orchestra/testbench": "^3.0",
